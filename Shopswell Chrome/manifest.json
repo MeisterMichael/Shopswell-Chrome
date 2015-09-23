@@ -1,0 +1,21 @@
+
+{
+  "manifest_version": 2,
+
+  "name": "Shopswell Tools",
+  "short_name": "Shopswell Tools",
+  "version": "1.0.0",
+  "description": "Collect things you love. Share them with friends. We'll let you know when products drop in price. Save time & money with Shopswell.",
+  "icons": { "128": "shopswell_icon_128.png" },
+  "permissions": [
+      "activeTab",
+      "https://www.google-analytics.com/",
+      "storage"
+  ],
+
+  "browser_action": {
+     "default_icon": "shopswell_icon_19.png",
+     "default_name": "Shopswell.  Shopping smarter together.\u2122",
+     "default_popup": "popup.html"
+  }
+}
